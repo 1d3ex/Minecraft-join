@@ -1,0 +1,7 @@
+on join:
+	set join message to ""
+	broadcast "&7👤 %player% has entered."
+	
+on quit:
+	set quit message to ""
+	broadcast "&7👤 %player% has left the game."
